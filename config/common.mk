@@ -39,6 +39,9 @@ else
     ro.device.cache_dir=/cache
 endif
 
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+  lineage.updater.uri=https://lineageota.claritysrv.com/api/v1/{device}/{type}/{incr}
+
 # Backup Tool
 PRODUCT_COPY_FILES += \
     vendor/lineage/prebuilt/common/bin/backuptool.sh:install/bin/backuptool.sh \
