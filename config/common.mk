@@ -228,10 +228,10 @@ PRODUCT_PACKAGES += \
     rsync
 
 # MicroG
-PRODUCT_PACKAGES += \
-    GmsCore \
-    FakeStore \
-    NetworkLocation
+#PRODUCT_PACKAGES += \
+#    GmsCore \
+#    FakeStore \
+#    NetworkLocation
 
 # F-Droid
 PRODUCT_PACKAGES += \
