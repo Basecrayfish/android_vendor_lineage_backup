@@ -227,6 +227,16 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     rsync
 
+# MicroG
+PRODUCT_PACKAGES += \
+    GmsCore \
+    FakeStore \
+    NetworkLocation
+
+# F-Droid
+PRODUCT_PACKAGES += \
+    F-DroidPrivilegedExtention
+
 # Storage manager
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.storage_manager.enabled=true
