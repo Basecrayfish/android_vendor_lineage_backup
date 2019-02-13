@@ -1,3 +1,4 @@
+PRODUCT_PACKAGE_OVERLAYS := vendor/lineage/overlay/microg
 # Allow vendor/extra to override any property by setting it first
 $(call inherit-product-if-exists, vendor/extra/product.mk)
 
