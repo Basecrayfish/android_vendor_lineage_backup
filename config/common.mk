@@ -223,13 +223,13 @@ PRODUCT_PACKAGES += \
 
 # F-Droid
 PRODUCT_PACKAGES += \
-    F-DroidPrivilegedExtention
+    F-DroidPrivilegedExtension
 
 # microG
-PRODUCT_PACKAGES += \
-    GmsCore \
-    GsfProxy \
-    FakeStore
+#PRODUCT_PACKAGES += \
+#    GmsCore \
+#    GsfProxy \
+#    FakeStore
 
 # Storage manager
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
