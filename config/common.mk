@@ -235,7 +235,7 @@ PRODUCT_PACKAGES += \
 
 # F-Droid
 PRODUCT_PACKAGES += \
-    F-DroidPrivilegedExtention
+    F-DroidPrivilegedExtension
 
 # Storage manager
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
